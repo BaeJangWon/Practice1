@@ -8,3 +8,33 @@ bVal = True                           # 논리형 변수(참/거짓)
 # 기본적인 주석
 ''' 
 이런 형태의 주석도 많이 사용
+
+strVal
+nVal
+fVal
+lVal
+dVal
+bVal
+print('strVal : ', strVal)
+print('nVal : ', nVal)
+print('fVal : ', fVal)
+print('lVal : ', lVal)
+print('dVal : ', dVal)
+print('bVal : ', bVal)
+print('strVal : ', type(strVal))
+print('nVal : ', type(nVal))
+print('fVal : ', type(fVal))
+print('lVal : ', type(lVal))
+print('dVal : ', type(dVal))
+print('bVal : ', type(bVal))
+
+'''
+같은 변수명일 경우, 이전 데이터를 덮어씀
+'''
+nVal = 16                          # 정수형 변수
+fVal = 3.14                        # 실수형 변수
+print('10진수 표현 : ', nVal)       # 10진수
+print('2진수 표현 : ', bin(nVal))  # 2진수
+print('8진수 표현 : ', oct(nVal))  # 8진수
+print('16진수 표현 : ', hex(nVal))  # 16진수
+
